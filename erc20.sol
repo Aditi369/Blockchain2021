@@ -1,6 +1,6 @@
+// an ERC20 token is a token, like BTC or ETH, except it runs on the Ethereum chain
 // SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.7;
-// an ERC20 token is a token, like BTC or ETH, except it runs on the Ethereum chain
 
 interface ERC20Interface {
     
@@ -32,8 +32,8 @@ contract myToken is ERC20Interface {
     
     constructor() public {
         tokenOwner = msg.sender;
-        symbol = "ECC5.0";
-        name = "ECC fixed supply token";
+        symbol = "CSK";
+        name = "Aditi Umarani fixed supply chain ";
         decimals = 18;
         
         _totalSupply = 1000000 * 10**uint(decimals);
@@ -82,3 +82,4 @@ contract myToken is ERC20Interface {
         return true;
     }
 }
+ 
