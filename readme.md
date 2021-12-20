@@ -1,3 +1,72 @@
+## Install Git ##
+
+1. get a github account at github.com
+
+2. install git locally
+
+
+## Install NodeJs ##
+
+Install following the instructions at the following web page:
+
+```https://nodejs.org/en/download/```
+
+## Cloning a Repository ##
+
+Create a folder for your projects.  Go into that folder.
+
+Inside that college folder, run:
+
+```git clone https://github.com/Aditi369/Blockchain2021.git```
+
+## Updating Code in Repo from Github ##
+
+From the terminal in Visual Studio Code (or from the command line - as long as you are in the folder), run the following command:
+
+```git pull origin main```
+
+## for the moment ##
+
+you need git, nodejs and vs code installed.
+
+## Validation Steps ##
+
+
+```$git version```
+
+```$node -v```
+
+## Using your own repo ##
+
+First, create a repo in github.
+
+git clone into a folder
+
+make your changes
+
+then run the following commands:
+
+```$git add .```
+
+```$git commit -m "Adding code to Repository"```
+
+```$git push origin main```
+
+## Executing a .JS file ##
+
+
+```$node contract.js```
+```$node distribute.js```
+
+## Dependencies and NPM ##
+
+
+From inside your folder, to create your own package.json:
+
+```$npm init```
+
+
+
 
 ## Docker ##
 
@@ -24,33 +93,3 @@
 
 ### view logs inside a container ###
 ```docker logs -f [name]```
-
-### view images on your computer ###
-```docker image ls```
-
-### clear the docker system ###
-```docker system prune -f```
-
-### remove all docker images ###
-```docker image prune -a -f```
-
-### run docker-compose ###
-```docker-compose up```
-
-to run it in detached mode:
-
-```docker-compose up -d```
-
-
-## Requirements for Assignment ##
-
-### 1. create an ethereum account ###
-This is completed inside metamask (12 words, create an account, fund with Ropsten ether)
-
-### 2. Create an ERC20-compliant, fixed-supply token
-using open zeppelin contract, 
-
-### 3. Deply to Ropsten
-deploying using injected web3 and metamask
-
-
